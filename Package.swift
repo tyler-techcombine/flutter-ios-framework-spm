@@ -5,20 +5,25 @@ import PackageDescription
 
 let package = Package(
     name: "omise-flutter-ios-spm",
+    platforms: [
+            .iOS(.v12)
+        ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "omise-flutter-ios-spm",
-            targets: ["omise-flutter-ios-spm"]),
+            targets: ["Flutter", "App"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "omise-flutter-ios-spm"),
-        .testTarget(
-            name: "omise-flutter-ios-spmTests",
-            dependencies: ["omise-flutter-ios-spm"]
+        .binaryTarget(
+            name: "Flutter",
+            path: "./XCFrameworks/Flutter.xcframework"
         ),
+        .binaryTarget(
+            name: "App",
+            path: "./XCFrameworks/App.xcframework"
+        )
     ]
 )
