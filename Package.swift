@@ -17,43 +17,43 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Flutter",
-            url: "https://winter-queen-2573.saihanlinaung.workers.dev/flutter.zip",
-            checksum: "1a33c846e186c5c6196dcd65ee9e2f41b1f5d7b0bf2162536d09d3d5f33ee62b"
+            url: "https://winter-queen-2573.saihanlinaung.workers.dev/debug/Flutter.zip",
+            checksum: "cad4d31de8bfafbb3bdf9f14b9e4a05c764d0d4254d6481145f7d897382404e0"
         ),
         .binaryTarget(
             name: "App",
-            url: "https://winter-queen-2573.saihanlinaung.workers.dev/app.zip",
-            checksum: "fd6b56d51fcf07688076133eaaae37f968dd04099c5e05a09f7882cb330e1503"
+            url: "https://winter-queen-2573.saihanlinaung.workers.dev/debug/App.zip",
+            checksum: "e3c4ad380726147dab408b3ee09158ae21f469997f47229b385068c6743a5ddb"
         ),
         .binaryTarget(
             name: "ScreenProtector",
-            url: "https://winter-queen-2573.saihanlinaung.workers.dev/screen_protector.zip",
-            checksum: "b6a0b1e783ded50a94ad6e8473e2c0323cf8fe86c870a99a5c82cc2326c96981"
+            url: "https://winter-queen-2573.saihanlinaung.workers.dev/debug/screen_protector.zip",
+            checksum: "98e447bebc39a0a9737613f65799271d30977593c70c4233da79f2f1597fe3e8"
         ),
         .binaryTarget(
             name: "ScreenProtectorKit",
-            url: "https://winter-queen-2573.saihanlinaung.workers.dev/screen_protector_kit.zip",
-            checksum: "c7a4f19d576cb8028673516216b0110abe8e66604f7e9fbf8dc774ba2acdf77d"
+            url: "https://winter-queen-2573.saihanlinaung.workers.dev/debug/ScreenProtectorKit.zip",
+            checksum: "f5e718ac227eeeb0497f7cb3064502bdff9212a72e25f91a623c4c179c8619f4"
         ),
         .binaryTarget(
             name: "PayiOS",
-            url: "https://winter-queen-2573.saihanlinaung.workers.dev/pay_ios.zip",
-            checksum: "afff8626d832dfc4e614a784292513c072d4eaf9edf93d0649325f3e39a9fc23"
+            url: "https://winter-queen-2573.saihanlinaung.workers.dev/debug/pay_ios.zip",
+            checksum: "4037713e3a8d923c1e5bb95ce5c27c86358a82ce6810287a9961e75e42472297"
         ),
         .binaryTarget(
             name: "FlutterPluginRegistrant",
-            url: "https://winter-queen-2573.saihanlinaung.workers.dev/flutter_plugin.zip",
-            checksum: "b8b34ff3c5849f97e14716b1757daa262e2d3a88022709d090011d430f2611e4"
+            url: "https://winter-queen-2573.saihanlinaung.workers.dev/debug/FlutterPluginRegistrant.zip",
+            checksum: "9d8c689093b3ca7569f95e6a0adafbde1846d1975ad9fbe082357119346cfc02"
         ),
         .binaryTarget(
             name: "FlutterWKWebview",
-            url: "https://winter-queen-2573.saihanlinaung.workers.dev/flutter_wkwebview.zip",
-            checksum: "8bd41aa7ec7b57e14aa11aa989fe74112de46cb29e6489afc67e7568c0273c7f"
+            url: "https://winter-queen-2573.saihanlinaung.workers.dev/debug/webview_flutter_wkwebview.zip",
+            checksum: "db21185c29c8346cd01e6158be4c9b2825b8eb5c5ff74b041b91c2f353e42b2c"
         ),
         .binaryTarget(
             name: "URLLauncher",
-            url: "https://winter-queen-2573.saihanlinaung.workers.dev/url_launcher.zip",
-            checksum: "20d4447e4fd32ad4635dbe0d00592e66b7088914599ff31357e451036f7e55cb"
+            url: "https://winter-queen-2573.saihanlinaung.workers.dev/debug/url_launcher_ios.zip",
+            checksum: "cd1b9fac8f1630ca80da0f5c9d08e0eace84f8f744fa1f03ab61a2fa9ebcfa15"
         )
         
     ]
