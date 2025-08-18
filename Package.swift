@@ -23,43 +23,43 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "App",
-            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.4/App.xcframework.zip",
-            checksum: "d487c6c3a86683cf004f9f6a457d6b5a051cce78bb5d9903b6bede6df2289866"
+            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.5/App.xcframework.zip",
+            checksum: "91abdb413c9cf901922b5b90b8af3f42258341630f5a2e242411e325332685eb"
         ),
         .binaryTarget(
             name: "Flutter",
-            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.4/Flutter.xcframework.zip",
-            checksum: "a118c62311c4f5ef78c5b33fb98fbfffeb4ad9fc47d81d6b201ec4b67aa521f9"
+            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.5/Flutter.xcframework.zip",
+            checksum: "b9199ef458a6e27655f84502b7f1873b1f273f7ddca98a441af4081c4301647b"
         ),
         .binaryTarget(
             name: "FlutterPluginRegistrant",
-            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.4/FlutterPluginRegistrant.xcframework.zip",
-            checksum: "a94c2281d4a7968928276e5c0fd10eedef8776430b03ae08987c7e8983041456"
+            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.5/FlutterPluginRegistrant.xcframework.zip",
+            checksum: "27a760fc88fd05a1ae9829a85754d3aecd9dbffcff7e134d6c1e923c5d7d7973"
         ),
         .binaryTarget(
             name: "ScreenProtectorKit",
-            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.4/ScreenProtectorKit.xcframework.zip",
-            checksum: "e6734b5899d4a5bc95cdb4d4a223ae444b644b5f51a5edb3bee2d6fb7f351f84"
+            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.5/ScreenProtectorKit.xcframework.zip",
+            checksum: "b9aff1e654f98c0e08907998b6e63fe32ffe77dcd389635b36f80c2ad6e1ee2f"
         ),
         .binaryTarget(
             name: "pay_ios",
-            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.4/pay_ios.xcframework.zip",
-            checksum: "c8190e45d2dc15d18aa8819a5df4310dd18b809d2f7bafcd884a172ddaf29a86"
+            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.5/pay_ios.xcframework.zip",
+            checksum: "81a430574f377b486e2acd6105cad28b5ecc7d916eb67dc8e70ab62d6e878c9b"
         ),
         .binaryTarget(
             name: "screen_protector",
-            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.4/screen_protector.xcframework.zip",
-            checksum: "c96639fa6e1c8117f595539926da8d41d9ed0e02f03bd2e12562eb54a702aa57"
+            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.5/screen_protector.xcframework.zip",
+            checksum: "acf98855a75cf55b58153d5cff61bae299f4995a76aa765b0824b78c156000b1"
         ),
         .binaryTarget(
             name: "url_launcher_ios",
-            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.4/url_launcher_ios.xcframework.zip",
-            checksum: "8ab84d4ba3e39dd3e10e534fc1f8591aea9c1f5518ee508b9fc550d30c3a52c8"
+            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.5/url_launcher_ios.xcframework.zip",
+            checksum: "a9f8d7053eef29c49b738ba752278054fa566991e5b917cbe353d56c2bb331b3"
         ),
         .binaryTarget(
             name: "webview_flutter_wkwebview",
-            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.4/webview_flutter_wkwebview.xcframework.zip",
-            checksum: "42214e0e44439b07397986b76a4b9a8dbe1cb2118b9f72478175b14288ef0947"
+            url: "https://your-cdn-or-s3-domain.example.com/sdk/xcframeworks/0.0.5/webview_flutter_wkwebview.xcframework.zip",
+            checksum: "b6a8b8ac388e7356b4c7fec8a4846dfced75181553e212896bec9e44b1d1d2f7"
         ),
     ]
 )
